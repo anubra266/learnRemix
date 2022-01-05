@@ -1,4 +1,5 @@
 import { hydrate } from "react-dom";
-import { RemixBrowser } from "remix";
 
-hydrate(<RemixBrowser />, document);
+import { ChakraRemixBrowser } from "~/chakra-remix-browser.client";
+
+hydrate(<ChakraRemixBrowser />, document);

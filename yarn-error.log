@@ -1,0 +1,70 @@
+Arguments: 
+  /Users/anuoluwapoabraham/.nvm/versions/node/v14.17.3/bin/node /Users/anuoluwapoabraham/.yarn/bin/yarn.js add remix-chakra-ui
+
+PATH: 
+  /Users/anuoluwapoabraham/.yarn/bin:/Users/anuoluwapoabraham/.config/yarn/global/node_modules/.bin:/Users/anuoluwapoabraham/.nvm/versions/node/v14.17.3/bin:/Users/anuoluwapoabraham/go/bin:/Users/anuoluwapoabraham/.composer/vendor/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/anuoluwapoabraham/.fig/bin:/Users/anuoluwapoabraham/Library/Android/sdk/emulator:/Users/anuoluwapoabraham/Library/Android/sdk/tools:/Users/anuoluwapoabraham/Library/Android/sdk/tools/bin:/Users/anuoluwapoabraham/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.3
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/remix-chakra-ui: Not found
+      at Request.params.callback [as _callback] (/Users/anuoluwapoabraham/.yarn/lib/cli.js:67031:18)
+      at Request.self.callback (/Users/anuoluwapoabraham/.yarn/lib/cli.js:140885:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (/Users/anuoluwapoabraham/.yarn/lib/cli.js:141857:10)
+      at Request.emit (events.js:375:28)
+      at IncomingMessage.<anonymous> (/Users/anuoluwapoabraham/.yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (events.js:481:28)
+      at IncomingMessage.emit (events.js:387:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "remix-app-template",
+    "description": "",
+    "license": "",
+    "scripts": {
+      "build": "remix build",
+      "dev": "remix dev",
+      "postinstall": "remix setup node",
+      "start": "remix-serve build"
+    },
+    "dependencies": {
+      "@chakra-ui/react": "^1.7.3",
+      "@emotion/react": "^11.7.1",
+      "@emotion/server": "^11.4.0",
+      "@emotion/styled": "^11.6.0",
+      "@remix-run/react": "^1.1.1",
+      "@remix-run/serve": "^1.1.1",
+      "framer-motion": "^4.1.17",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-icons": "^4.3.1",
+      "remix": "^1.1.1"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^1.1.1",
+      "@types/react": "^17.0.24",
+      "@types/react-dom": "^17.0.9",
+      "typescript": "^4.1.2"
+    },
+    "engines": {
+      "node": ">=14"
+    },
+    "sideEffects": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
